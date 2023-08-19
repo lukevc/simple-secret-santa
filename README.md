@@ -1,7 +1,7 @@
 # simple-secret-santa
 A simple project to assign secret santa participants 
 
-- This was created to arbitrate my families secret santa.
+- This was created to assign participants for my families secret santa.
 - People are added to the "hat" using a data class [str: "giver", str: "reciever"] and then added to a list.
 - The list is then shuffled randomly.
 - The "reciever" is then swapped with the previous index.
